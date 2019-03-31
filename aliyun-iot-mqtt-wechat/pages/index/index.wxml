@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="view-header">设备身份三元组</view>
+  <view style="margin:10rpx 0;"></view>
+  <view class="view-flex-row">
+    <text class="label-device">productKey  : </text>
+    <input class="input-device" bindinput='productKeyInput' placeholder="请输入productKey" value="{{productKey}}" />
+  </view>
+  <view class="view-flex-row">
+    <text class="label-device">deviceName  : </text>
+    <input class="input-device" bindinput="deviceNameInput" placeholder="请输入deviceName" value="{{deviceName}}" />
+  </view>
+  <view class="view-flex-row">
+
+    <text class="label-device">deviceSecret  : </text>
+    <input class="input-device" bindinput="deviceSecretInput" placeholder="请输入deviceSecret" value="{{deviceSecret}}" />
+  </view>
+
+  <view class="view-header">物模型属性</view>
+  <view style="margin:10rpx 0;"></view>
+  <view class="view-flex-row">
+    <text class="label-property">温 度: </text>
+    <input class="input-things" bindinput="temperatureInput" type="digit" maxlength="4" />
+    <text class="label-property">℃</text>
+  </view>
+  <view class="view-flex-row">
+    <text class="label-property">湿 度: </text>
+    <input class="input-things" bindinput="humidityInput" type="digit" maxlength="4" />
+    <text class="label-property">%</text>
+  </view>
+
+  <view class="view-btns-row">
+    <button bindtap="connectIoT">设备上线</button>
+    <button bindtap="sendDataIoT">上报数据</button>
+    <button bindtap="subscribeIoT">订阅主题</button>
+  </view>
+
+  <view class="view-header">设备日志</view>  
+  
+
+  <text class="text-log">{{logTitle}}</text>
+<text class="text-log-main">{{logContent}}</text>
+
+</view>

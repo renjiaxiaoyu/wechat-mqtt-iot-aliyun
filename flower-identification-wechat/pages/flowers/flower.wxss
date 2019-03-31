@@ -1,0 +1,59 @@
+/**face.wxss**/
+
+.view-title {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+  padding: 10rpx 0;
+}
+
+.face-image{
+  width: 100%;
+}
+.view-row {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+  padding: 10rpx 0 0 20rpx;
+}
+
+.label-device{
+  width: 280rpx;
+}
+.input-device {
+  margin: 0 0 0 10rpx;
+  color: rgb(13,71,161);
+  width: 70%;
+  border:none;
+  border-bottom:1rpx solid #757575;
+}
+.input-things {
+  margin: 0 0 0 20rpx;
+  width:100rpx;
+  color: rgb(13,71,161);
+  border:none;
+  border-bottom:1rpx solid #757575;
+}
+
+.view-btn-row {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+  margin: 30rpx 0;
+}
+
+.text-log {
+  align-items: left;
+  padding: 0 0 0 10rpx;
+  color: rgb(0,139,0);
+}
+
+
+.text-help {
+  font-size: small;
+  color: rgb(10, 194, 240);
+  padding: 20rpx;
+}

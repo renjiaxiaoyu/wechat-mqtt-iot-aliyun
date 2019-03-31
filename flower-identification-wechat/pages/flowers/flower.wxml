@@ -1,0 +1,23 @@
+<!--pages/face.wxml-->
+<view class="container">
+
+  <image class="face-image" src="{{imgSrc}}" mode="aspectFit"> </image>
+  <view class="view-row">
+    <button bindtap="takePhoto"> 打开相册 </button>
+  </view>
+  <view class="view-row">
+    <view class="view-title" style="font-weight:bold;padding: 10rpx 0;">识别结果</view>
+  </view>
+  <view class="view-row">
+    花名：
+    <text class="text-log">{{gender}}</text> </view>
+  <view class="view-row">
+    别名：
+    <text class="text-log">{{age}}</text> </view>
+
+  <view class="view-row">花科：
+    <text class="text-log">{{glass}}</text>
+  </view>
+  <view class="view-row">花属：
+    <text class="text-log">{{expression}}</text> </view>
+</view>

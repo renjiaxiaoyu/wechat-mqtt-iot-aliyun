@@ -1,0 +1,48 @@
+/**index.wxss**/
+
+.view-btns-row {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+  margin: 30rpx 0;
+}
+
+.text-log {
+  word-break: keep-all;
+  word-wrap: break-word;
+  width: 100%;
+  padding: 10rpx 0 0 20rpx;
+  color: #068004;
+  font-size: 11pt;
+}
+
+.text-log-main {
+  word-break: keep-all;
+  word-wrap: break-word;
+  width: 100%;
+  padding: 10rpx 0 0 40rpx;
+  color: #2657c2;
+  font-size: 11pt;
+}
+
+.btn-egg {
+  position: fixed;
+  top: 10;
+  right: 0;
+  border: none;
+}
+
+.btn-egg::after {
+  border: none;
+}
+
+.btn-egg2 {
+  position: fixed;
+  top: 10;
+  border: none;
+}
+
+.btn-egg2::after {
+  border: none;
+}
